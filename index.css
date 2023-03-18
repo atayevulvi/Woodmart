@@ -1,0 +1,290 @@
+body {
+    overflow-x: hidden;
+}
+
+.carousel-dot {
+    border: 2px solid white !important;
+    background-color: transparent !important;
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+    position: relative !important;
+}
+
+.carousel-dot.active::after {
+    content: '';
+    width: 10px !important;
+    height: 10px !important;
+    position: absolute !important;
+    background-color: white !important;
+    border-radius: 50% !important;
+    top: 0% !important;
+    left: 5% !important;
+    right: 10% !important;
+    bottom: 40% !important;
+}
+
+.arxa {
+    background-color: #f8f8f8;
+}
+
+.roww {
+    transform: translateX(60px);
+}
+
+.row-1 {
+    transform: translateX(90px);
+}
+
+.input-1 {
+    width: 300px !important;
+    height: 45px;
+    background-color: transparent;
+    border: 1px solid #dbdbdb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-2 {
+    border: 1px solid #dbdbdb;
+    height: 45px;
+    background-color: transparent;
+    width: 220px !important;
+    transform: translateX(50px);
+    border-left: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-3 {
+    border: 1px solid #dbdbdb;
+    height: 45px;
+    width: 50px !important;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(506px, -45px);
+}
+
+.list {
+    transform: translateX(50px);
+}
+
+.yasil {
+    background-color: #7ab532;
+}
+
+.yasill {
+    color: #7ab532;
+}
+
+.yaasil:hover {
+    color: #7ab532;
+}
+
+.cart {
+    border: 1px solid #dbdbdb;
+    padding: 10px;
+    background-color: #7ab532;
+    color: white;
+}
+
+.xett {
+    width: 120px !important;
+    height: 1px;
+    background-color: #8ec051;
+}
+
+.w-93 {
+    width: 93% !important;
+}
+.yarpaq{
+    font-size: 40px;
+}
+
+.w-30 {
+    width: 30% !important;
+}
+.acar{
+    transform: translate(190px,-36px);
+}
+.stoll{
+    background-image: url('https://z9d7c4u6.rocketcdn.me/wp-content/uploads/2017/01/slider-main-demo-1.jpg');
+    background-size: cover;
+    width: 100%;
+}
+
+.carusel-5 {
+    border: 1px solid grey;
+    border-radius: 22px;
+    height: 10px;
+    width: 11px;
+    background-color: grey;
+    position: relative;
+}
+
+.carusel-5::after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 10px;
+    background-color: grey;
+}
+
+.stol {
+    background-image: url('https://z9d7c4u6.rocketcdn.me/wp-content/uploads/2015/12/newsletter-new.jpg?id=9309');
+    height: 300px;
+}
+
+.on {
+    background-color: #fbfbfb;
+}
+
+.input {
+    width: 290px;
+    height: 42px;
+    border: 1px solid #dbdbdb;
+    display: flex;
+    padding-left: 8px;
+    align-items: center;
+}
+
+.w-15 {
+    width: 15%;
+}
+
+.add {
+    width: 130px !important;
+    height: 45px;
+    background-color: transparent;
+    border: 1px solid #dbdbdb !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: white;
+}
+
+.wood {
+    transform: translateX(-85px);
+}
+
+.xett1 {
+    width: 130px;
+    height: 1px;
+    background-color: #dbdbdb;
+    transform: translateX(-40px);
+}   
+.xett2 {
+    height: 1px;
+    width: 130px;
+    background-color: #dbdbdb;
+    transform: translateX(-10px);
+}
+
+.xett3 {
+    height: 1px;
+    width: 130px;
+    background-color: #dbdbdb;
+    transform: translateX(40px);
+}
+
+.xett21 {
+    width: 100vw !important;
+    height: 1px;
+    background-color: #dbdbdb;
+}
+
+.sol {
+    border: 1px solid #dbdbdb;
+    height: 50px;
+    width: 160px;
+    border-radius: 50px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    left: 90px;
+    bottom: 90px;
+}
+
+.sol:hover {
+    background-color: #7ab532;
+}
+
+.w-20 {
+    width: 20% !important;
+}
+
+.searchh {
+    transform: translateX(-15px);
+}
+
+.sag {
+    right: 0px;
+    bottom: 120px;
+    position: fixed;
+}
+
+.spann {
+    font-size: 14px;
+    width: 300px;
+}
+
+.sspann {
+    font-size: 13px;
+}
+
+.spa {
+    transform: translateY(-23px);
+}
+
+.spaa {
+    transform: translateY(-18px);
+}
+
+.sspan {
+    font-size: 12px;
+}
+
+font {
+    font-size: 14px;
+}
+
+.border {
+    width: 230px !important;
+    height: 50px;
+    background-color: #7ab532;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.salam1 {
+    transform: translateX(10px);
+}
+
+.salam-1 {
+    transform: translate(50px);
+}
+
+.salam-2 {
+    transform: translate(115px);
+}
+
+.salam2 {
+    transform: translateX(33px);
+}
+
+.salam3 {
+    transform: translateX(75px);
+}
+
+.sekill1 {
+    background-size: cover;
+}
